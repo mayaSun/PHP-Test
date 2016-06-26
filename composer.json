@@ -1,0 +1,24 @@
+{
+    "name": "Colors",
+    "description": "PHP quick test",
+    "keywords": ["Your keyword", "Another keyword"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maya Sandovsky",
+            "email": "maya166@gmail.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "filp/whoops": ">=1.1.2",
+        "patricklouys/http": ">=1.1.0",
+        "nikic/fast-route": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\": "app/"
+        }
+    }
+}
